@@ -1,0 +1,13 @@
+cabal-version: 2.0
+
+name: ssh-tunnel
+version: 0
+build-type: Simple
+
+executable ssh-tunnel
+  ghc-options: -Wall -O
+  main-is: Main.hs
+  build-depends:
+      base
+    , optparse-applicative
+    , process
